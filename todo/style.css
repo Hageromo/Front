@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgrey;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    opacity: 0.4;
+}
+
+form{
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+}
+
+.input{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: none;
+    font-size: 1.1rem;
+    padding: 8px;
+}
+
+
+button{
+    font-size: 1.1rem;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+
+.todos li {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed {
+    color: white;
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+
+input{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: none;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+
+
+
+/* [LIST] */
+#todos {
+    margin: 0;
+    padding: 0;
+}
+#todos li {
+    padding: 15px 10px;
+    font-size: 1.8rem;
+
+}
+
+#todos li.hide {
+    display: none;
+}
+
+
